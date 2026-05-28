@@ -1,0 +1,204 @@
+ body
+            .navbar{
+    background-color: rgba(51, 17, 18, 0.5);
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: chocolate;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+li a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 90px;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+li a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+    
+}
+button{
+    background-color: chocolate;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 99px;
+}
+button:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+
+}
+button a{
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: oblique;
+}
+button a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+}
+
+   body{
+        background-image: url(log.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+     }
+    
+      /* .container{
+        
+        margin-left: 550px;
+        margin-top: 100px;
+        border: 1px solid black;
+        width: 180px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: goldenrod;
+     }
+     
+     h1{
+        margin-left: 30px;
+     }
+     button{
+        margin-left: 40px;
+     }
+
+     body{
+        background-image: url(log.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+     }
+     .button1{
+        color: beige;
+        border: 15px;
+        padding: 8px;
+        margin-left: 600px;
+        margin-top: 10PX;
+     }
+     .button2{
+        color: beige;
+        border: 15px;
+        padding: 8px;
+        margin-left: 550px;
+        margin-top: 10PX;
+
+     }
+     .button1:hover{
+        filter: drop-shadow(0 0 10px black);
+     }
+     .button2:hover{
+        filter: drop-shadow(0 0 10px black);
+     } */
+
+     .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+} 
+
+span{
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header{
+    color: chocolate;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: 20px;  
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 45px;
+    width: 92%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255, 255, 0.50);
+}
+
+::-webkit-input-placeholder{
+    color: black;
+}
+
+.btn{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.50);
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+}
+
+.btn:hover{
+    filter: drop-shadow(0,10px,0,10px gold);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: black;
+    margin-top: 10px;
+}
+
+.left{
+    display: flex;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

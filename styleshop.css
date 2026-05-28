@@ -1,0 +1,117 @@
+ body{
+            .navbar{
+    background-color: rgba(51, 17, 18, 0.5);
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: chocolate;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+li a{
+    color: white;   
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 90px;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+li a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+    overflow: visible;
+    
+}
+button{
+    background-color: chocolate;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 99px;
+}
+button:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+
+}
+button a{
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: oblique;
+}
+button a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+}
+        }
+        /* body{
+            background-image: url(shop.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        } */
+
+        .items{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 30px 20px;
+            grid-column-gap: 25px;
+            grid-row-gap: 30px;
+            margin-left: 100px;
+         }
+         .item img{
+            transition: 0.2s ease;
+            object-fit: cover;
+            cursor: pointer;
+         }
+         .item img:hover{
+            transform: scale(1.04);
+            filter: drop-shadow(0 0 10px green);
+         }
+         .item h4{
+            padding: 5px;
+            text-align: center;
+            margin-right: 235px;
+            text-decoration: double;
+            color: white;
+            size: bigger;
+            border: 0px solid black;
+            background-color: rgba(30, 131, 7, 0.5);
+            border-radius: 10px;
+
+         }
+         .item button{
+            padding: 5px 30px;
+            border: none;
+            outline: none;
+            margin-left: 50px;
+            margin-bottom: 20px;
+
+         }
+         .back-video{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -3;
+         }

@@ -1,0 +1,92 @@
+ body{
+            .navbar{
+    background-color: rgba(51, 17, 18, 0.5);
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: chocolate;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+li a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 90px;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+li a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+    
+}
+button{
+    background-color: chocolate;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 99px;
+}
+button:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+
+}
+button a{
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: oblique;
+}
+button a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+}
+        }
+        table{
+            margin-top: 20px;
+            margin-left: 30px;
+            border-radius: 5px;
+            width: 50%;
+        }
+        body{
+            background-image: url(menubar.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        th{
+            background-color: black;
+            color: beige;
+        }
+        tr{
+            background-color: rgba(255,255,255,0.3);
+            padding: 0;
+            
+        }
+        dt{
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        dd{
+            color: white;
+            font-weight: bolder;
+               }       

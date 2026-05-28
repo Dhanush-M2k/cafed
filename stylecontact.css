@@ -1,0 +1,139 @@
+ body{
+            .navbar{
+    background-color: rgba(51, 17, 18, 0.5);
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: chocolate;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+li a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 90px;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+li a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+    
+}
+button{
+    background-color: chocolate;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 99px;
+}
+button:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+
+}
+button a{
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: oblique;
+}
+button a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+}
+        }
+
+        body{
+            background-color: cadetblue;
+        }
+
+        .container{
+            width: 100%;
+            margin: 50px auto;
+            max-width: 300px;
+            padding: 20px;
+            background-color: transparent;
+            border-radius: 10px;
+            box-shadow: black;
+        }
+        .container h1{
+            text-align: center;
+            margin-bottom: 20px;
+            color: chocolate;
+        }
+        form input {
+            display: inline;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.3);
+        } 
+        form textPath{
+             display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.3);
+            
+
+        }
+        form textarea{
+             display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.3);
+
+        }
+        form input :focus{
+            outline: none;
+            box-shadow: black;
+        }
+        form textarea :focus{
+             outline: none;
+            box-shadow: black;
+        }
+        form button{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.3);
+            color: chocolate;
+            cursor: pointer;
+            transition: 0.3s ease;
+         }
+         form button:hover{
+            filter: drop-shadow(gold);
+         }
+         h2{
+            text-align: center;
+         }
+         p{
+            text-align: center;
+         }

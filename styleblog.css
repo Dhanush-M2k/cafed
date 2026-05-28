@@ -1,0 +1,197 @@
+ body{
+            .navbar{
+    background-color: rgba(51, 17, 18, 0.5);
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: chocolate;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+li a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 90px;
+    text-decoration: none;
+    margin-left: 40px;
+    border-bottom: 2px solid transparent;
+
+}
+li a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+    
+}
+button{
+    background-color: chocolate;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 99px;
+}
+button:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+
+}
+button a{
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: oblique;
+}
+button a:hover{
+    filter: drop-shadow(0 0 10px gold
+    );
+}
+   }
+
+   .hero{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   .hero h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+   }
+   .hero h1 span{
+    color: hotpink;
+   }
+   .card{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    background: rgba(255,255,255,0.3);
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+   .card h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    color: olive;
+   }
+   .publish-date{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+   }
+   .btn{
+    display: inline-block;
+    text-transform: capitalize;
+    background: olive;
+    color: azure;
+    padding: 2px 3px;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: opacity .2s ease;
+    text-decoration: none;
+   }
+   .btn:hover{
+    filter: drop-shadow(0 0 10px gold);
+   }
+   .footer{
+    font-size: 1rem;
+    background: gray;
+    padding: 2px 3px;
+    color: azure;
+    text-align: center;
+    text-transform: capitalize;
+   }
+   @media (max-width: 1000px){
+    .navbar{
+        padding: 0 5%;
+    }
+
+   }
+   .container{
+            width: 100%;
+            margin: 50px auto;
+            max-width: 300px;
+            padding: 20px;
+            background-color: transparent;
+            border-radius: 10px;
+            box-shadow: black;
+        }
+        form input {
+            display: inline;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.6);
+        } 
+        form textPath{
+             display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.6);
+            
+
+        }
+        form textarea{
+             display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.6);
+
+        }
+        form input :focus{
+            outline: none;
+            box-shadow: black;
+        }
+        form textarea :focus{
+             outline: none;
+            box-shadow: black;
+        }
+        form button{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.3);
+            color: olive;
+            font-size: larger;
+            cursor: pointer;
+            transition: 0.3s ease;
+         }
+         form button:hover{
+            filter: drop-shadow(gold);
+         }
+         .comment{
+            display: block;
+            text-align: center;
+            font-weight: bolder;
+            font-size: xx-large;
+            padding: 0;
+            margin-bottom: 2rem;
+         }
